@@ -1,0 +1,21 @@
+
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: auto;
+            padding: auto;
+        }
+
+        /* Container for the two columns */
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* Style for each column */
+        .column {
+            flex-basis: 48%; /* Adjust the width as per your preference */
+            padding: 20px;
+            border: 10px solid #ddd;
+            box-sizing: border-box;
+        }
